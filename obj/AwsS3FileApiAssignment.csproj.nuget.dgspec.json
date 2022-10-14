@@ -25,7 +25,8 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "C:\\Users\\HJeure\\OneDrive - Affinion Group\\Desktop\\Internal-training\\ConfigurationAssignment\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,6 +52,10 @@
             "AWSSDK.S3": {
               "target": "Package",
               "version": "[3.7.9.53, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.15.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

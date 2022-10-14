@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TkQhySRlHi9cTILkLn1wEfxsMW7ms3VyLENVngsXu0LnAd9H0/S/r52OglQYzwxjNsoNPtF+ORcS17QntYS3iQ==",
+  "dgSpecHash": "guybgZulF4VQbCqyihEJYahq76K8tFPdXGnvI3ydhoirepsI4qDwk8BPmqOU1DVRdbqT983LhSO9GPTI56IeKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\HJeure\\OneDrive - Affinion Group\\Desktop\\Internal-training\\UpdateAPIAssignment\\AwsS3FileApiAssignment\\AwsS3FileApiAssignment.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\HJeure\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\HJeure\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
     "C:\\Users\\HJeure\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\HJeure\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\HJeure\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\HJeure\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\HJeure\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

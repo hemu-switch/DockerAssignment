@@ -13,7 +13,7 @@ namespace AwsS3FileApiAssignment.Controllers
             //var data = await _s3Client.ListBucketsAsync();
             //var buckets = data.Buckets.Select(b => { return b.BucketName; });
             //return Ok(buckets);
-            var s3Client = new AmazonS3Client("AKIA4D4UH226B6NWU76T", "Gy3Kjpe6Uai9TE0ShxBwCZ2B3uiXcFXicOKxePU3", Amazon.RegionEndpoint.USEast1);
+            var s3Client = new AmazonS3Client("AKIA4D4UH226PM35K74M", "wKfRbCo7udYsN8NOP19r2Zs8N2OgY3aWDOvABS9K", Amazon.RegionEndpoint.USEast1);
             var buckets = await s3Client.ListBucketsAsync();
             //Console.WriteLine(String.Join(",", buckets.Buckets.Select(b => b.BucketName)));
             return Ok(String.Join(",", buckets.Buckets.Select(b => b.BucketName)));
@@ -24,8 +24,8 @@ namespace AwsS3FileApiAssignment.Controllers
         public async Task<IActionResult> GetAll()
         {
 
-            string UID = "AKIA4D4UH226B6NWU76T ";
-            string secret = "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";
+            string UID = "AKIA4D4UH226PM35K74M ";
+            string secret = "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";
             var s3client = new AmazonS3Client(UID, secret, Amazon.RegionEndpoint.USEast1);
             var buckets = await s3client.ListBucketsAsync();
             foreach (var bucket in buckets.Buckets)
